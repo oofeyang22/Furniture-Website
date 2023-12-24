@@ -1,6 +1,7 @@
 {
-  "homepage": "https://oofeyang22.github.io/Furniture-Website",
+  
   "name": "vite-project",
+  "homepage": "https://oofeyang22.github.io/Furniture-Website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
