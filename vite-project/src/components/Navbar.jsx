@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {AiOutlineClose} from 'react-icons/ai'
 import {RiMenu4Fill} from 'react-icons/ri'
-import {Link} from 'react-scroll'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     const [nav, setNav]= useState(false);
