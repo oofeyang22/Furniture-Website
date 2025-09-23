@@ -21,7 +21,7 @@ const Navbar = () => {
                 <li className='p-4'><button className='w-[6rem] h-[2rem] bg-white text-[#D70404] font-bold'>Sign up</button></li>
             </ul>
         <div onClick={handleNav} className='block md:hidden'>
-            {nav? <AiOutlineClose size={20} className='text-white font-bold'/> : < RiMenu4Fill size= {20} className='text-white font-bold'/>}
+            {nav? <AiOutlineClose size={20} className='cursor-pointer text-white font-bold'/> : < RiMenu4Fill size= {20} className='cursor-pointer text-white font-bold'/>}
         </div>
         <div className= {nav? 'fixed bg-[red] left-0 top-0 w-[60%] h-full border-r border-r-gray-900' : 'fixed left-[-100%]'}>
             <h1 className='w-full text-xl font-bold m-4 text-white'>yangy</h1>
