@@ -21,19 +21,21 @@ function App() {
       <Routes>
         <Route path="/" element={
           <>
-                <Navbar/>
+            <Navbar/>
             <Hero/>
             <About/>
             <Blog/>
             <Products/>
             <Goals/>
             <Testimonials/>
-            <Cookie/>
             <Footer/>
+            
+
           </>
-        } />
+       } />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
+      <Cookie/>
     </div>
   )
 }

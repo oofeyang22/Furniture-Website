@@ -12,7 +12,7 @@ const Goals = () => {
     }, [])
     return (
         <div className='text-black bg-rose-100 px-4 md:px-[8.5rem] pt-[3rem] pb-[2.5rem] text-center'
-        data-aos="fade-right" data-aos-delay="800" data-aos-once="true">
+        data-aos="fade-right" data-aos-delay="500" data-aos-once="true">
 
             <div>
                 <h1 className='text-2xl md:text-4xl font-bold'>Why We Should Be Your Furniture Blog</h1>
